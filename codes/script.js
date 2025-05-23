@@ -31,4 +31,4 @@ while (running) {
 	}
 }
 
-txt.textContent = ans;
+txt.textContent = `Yep! the answer was ${ans}!`;

@@ -1,9 +1,8 @@
 @font-face {
 	font-family: comfortaa;
-	src: url(/garys_web/);
+	src: url(/garys_web/fonts/Comfortaa-VariableFont_wght.ttf);
 }
-
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: comfortaa;
 	background-color: #b6b8ff;
 }
