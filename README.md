@@ -31,13 +31,7 @@ I'm a self-taught web developer in the making — diving deep into HTML, CSS, an
 - Keep learning and experimenting daily (no shortcuts!)  
 - Contribute to open-source projects when I get comfy  
 
----
 
-## 🤝 Let's Connect
-
-Feel free to check out my GitHub or drop me a message if you wanna collab or just geek out about code!
-
-[GitHub](https://github.com/your-username) | [Email me](mailto:your-email@example.com)
 
 ---
 
