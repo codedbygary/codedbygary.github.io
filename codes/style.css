@@ -1,3 +1,8 @@
+@font-face {
+	font-family: comfortaa;
+	src: url(/garys_web/);
+}
+
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-color: #b6b8ff;
