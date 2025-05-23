@@ -1,71 +1,44 @@
-# Markdown Feature Demo
+# Hey, I'm Gary 👋
 
-## 1. Headings
-
-# H1  
-## H2  
-### H3  
-#### H4  
-##### H5  
-###### H6
+I'm a self-taught web developer in the making — diving deep into HTML, CSS, and JavaScript every day to build cool stuff and level up my skills.
 
 ---
 
-## 2. Emphasis
+## 🚀 What I'm Working On
 
-*Italic* or _Italic_  
-**Bold** or __Bold__  
-***Bold Italic***  
-~~Strikethrough~~
-
----
-
-## 3. Lists
-
-### Unordered
-
-- Item 1  
-- Item 2  
-  - Subitem 2a  
-  - Subitem 2b  
-- Item 3
-
-### Ordered
-
-1. First  
-2. Second  
-3. Third
+- Mastering **vanilla JavaScript** before jumping into React or Next.js  
+- Building my **portfolio website** to showcase projects soon  
+- Experimenting with CSS layouts and animations  
+- Learning Git & GitHub like a boss  
+- Planning to create some mini web apps and tools  
 
 ---
 
-## 4. Checkboxes
+## 🛠️ Skills & Tools
 
-- [x] Task done  
-- [ ] Task not done
-
----
-
-## 5. Links
-
-[GitHub](https://github.com)  
-<https://github.com>
+- HTML5 & CSS3 — laying down solid foundations  
+- JavaScript (vanilla) — making pages interactive  
+- VS Code — my coding playground  
+- Git & GitHub — version control essentials  
+- Live Server & Prettier — for quick testing & clean code  
 
 ---
 
-## 6. Images
+## 🎯 My Goals
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+- Land my first web developer gig in the next 3-6 months  
+- Build a standout portfolio that shows what I’m capable of  
+- Keep learning and experimenting daily (no shortcuts!)  
+- Contribute to open-source projects when I get comfy  
 
 ---
 
-## 7. Code
+## 🤝 Let's Connect
 
-Inline code: `console.log('hello world')`
+Feel free to check out my GitHub or drop me a message if you wanna collab or just geek out about code!
 
-Code block (JavaScript):
+[GitHub](https://github.com/your-username) | [Email me](mailto:your-email@example.com)
 
-```javascript
-function greet() {
-  console.log("Hello, Gary!");
-}
-greet();
+---
+
+*“Code hard, ship often, keep it real.”* 😎
