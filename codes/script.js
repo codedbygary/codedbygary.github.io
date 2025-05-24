@@ -1,7 +1,7 @@
 const txt = document.getElementById('h3');
 
 const minNum = 1;
-const maxNum = 10;
+const maxNum = 100;
 const ans = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
 
 let attempt = 0;
