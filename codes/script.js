@@ -1,6 +1,6 @@
 document.getElementById('web_dev').onclick = function () {
 	const minNum = 1;
-	const maxNum = 10;
+	const maxNum = 100;
 	const ans = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
 
 	let attempt = 0;
