@@ -41,31 +41,41 @@ body {
     color: rgb(191, 191, 191);
 }
 
+/* DEFAULT STATE */
+#pj, #contact {
+    background-color: #1a1e2a; /* slightly lighter than #151820 */
+    box-shadow: 0 0 6px rgba(80, 80, 110, 0.3);
+    transition: 0.4s ease;
+    color: azure;
+}
 #pj {
-    background-color: #151820;
-    box-shadow: 0px 0px 7px rgb(61, 61, 109);
-    transition: 0.8s;    
+    box-shadow: 0 0 5px rgba(110, 90, 170, 0.4);
+    background-color:rgba(35, 30, 60, 0.31);
 }
 #contact {
-    background-color: #151820;
-    box-shadow: 0px 0px 7px rgb(61, 105, 109);
-    transition: 0.8s;
+    box-shadow: 0 0 5px rgba(70, 130, 110, 0.4);
+    background-color: rgba(28, 45, 40, 0.271); 
 }
 
+/* PURPLE HOVER */
 #pj:hover {
-    border: 1px solid rgb(115, 115, 199);
-    box-shadow: 0px 0px 13px rgb(61, 61, 109);
-    margin: 0px 12px ;
-    color: azure;
-    border-radius: 8px;
+    border: 1px solid rgb(120, 100, 180);
+    box-shadow: 0 0 12px rgba(110, 90, 170, 0.4);
+    margin: 0 12px;
+    border-radius: 12px;
+    background-color: rgb(35, 30, 60); /* muted purple */
 }
+
+/* GREEN HOVER */
 #contact:hover {
-    border: 1px solid rgb(41, 120, 116);
-    box-shadow: 0px 0px 13px rgb(61, 105, 109);
-    margin: 0px 12px ;
-    color: azure;
-    border-radius: 8px;
+    border: 1px solid rgb(80, 140, 120);
+    box-shadow: 0 0 12px rgba(70, 130, 110, 0.4);
+    margin: 0 12px;
+    border-radius: 12px;
+    background-color: rgb(28, 45, 40); /* muted teal green */
 }
+
+
 
 #boutme {
     color: aliceblue;
@@ -79,6 +89,7 @@ body {
 }
 #boutme:hover {
     border-radius: 20px;
+    box-shadow: 0px 0px 10px #1f2a3e;
 }
 #web_dev {
     cursor: pointer;
