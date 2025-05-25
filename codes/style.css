@@ -77,3 +77,6 @@ body {
     border: 2px solid rgb(49, 49, 62);
 
 }
+#web_dev {
+    cursor: pointer;
+}
