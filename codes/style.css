@@ -75,7 +75,10 @@ body {
     margin-right: 100px;
     border-radius: 5px;
     border: 2px solid rgb(49, 49, 62);
-
+    transition: 0.5s;
+}
+#boutme:hover {
+    border-radius: 20px;
 }
 #web_dev {
     cursor: pointer;
