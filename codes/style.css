@@ -50,12 +50,19 @@ nav {
     font-size: 1.5rem;
 }
 a {
-    color: rgb(27, 27, 27);
+    color: rgb(3, 3, 3);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: aliceblue;
 }
 a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.logo {
+    font-size: 2rem;
+}
+.logo:hover {
+    cursor: default;
 }
