@@ -1,8 +1,79 @@
 @font-face {
-	font-family: comfortaa;
-	src: url(/garys_web/fonts/Comfortaa-VariableFont_wght.ttf);
+    font-family: comfortaa;
+    src: url(/garys_web/fonts/Comfortaa-VariableFont_wght.ttf);
 }
 body {
-	font-family: comfortaa;
-	background-color: #b6b8ff;
+    background-color: #151820;
+    font-family: comfortaa;
+    scroll-behavior: smooth;
+}
+
+#title {
+    font-family:comfortaa;
+    text-align: center;
+    color: rgb(215, 236, 255);
+    transition: 3s;
+}
+#title:hover{
+    color: rgb(117, 186, 255);
+}
+
+#web_dev {
+    text-align: center;
+    color: rgb(93, 93, 93);
+    transition: 3s;
+}
+#web_dev:hover {
+    color: rgb(174, 174, 174)
+}
+
+#top-buts {
+    display: flex;
+    justify-content: center;
+}
+.buts {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px dotted dimgray;
+    border-radius: 6px;
+    height: 40px;
+    width: 100px;
+    color: rgb(191, 191, 191);
+}
+
+#pj {
+    background-color: #181b28;
+    box-shadow: 0px 0px 7px rgb(61, 61, 109);
+    transition: 0.8s;    
+}
+#contact {
+    background-color: #151820;
+    box-shadow: 0px 0px 7px rgb(61, 105, 109);
+    transition: 0.8s;
+}
+
+#pj:hover {
+    border: 1px solid rgb(115, 115, 199);
+    box-shadow: 0px 0px 13px rgb(61, 61, 109);
+    margin: 0px 12px ;
+    color: azure;
+    border-radius: 8px;
+}
+#contact:hover {
+    border: 1px solid rgb(41, 120, 116);
+    box-shadow: 0px 0px 13px rgb(61, 105, 109);
+    margin: 0px 12px ;
+    color: azure;
+    border-radius: 8px;
+}
+
+#boutme {
+    color: aliceblue;
+    margin-top: 40px;
+    text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: 2px solid rgb(49, 49, 62);
+
 }
