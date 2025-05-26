@@ -2,7 +2,7 @@
     font-family: comfortaa;
     src: url(/garys_web/fonts/Comfortaa-VariableFont_wght.ttf);
 }
-body {
+html {
     background-color: #151820;
     font-family: comfortaa;
     scroll-behavior: smooth;
