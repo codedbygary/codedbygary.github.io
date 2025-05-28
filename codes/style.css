@@ -111,6 +111,28 @@ nav .right a span {
 	width: 310px;
 }
 
+/* section 2: skills */
+.skills-section {
+	padding: 0 50px;
+	margin-bottom: 100px;
+}
+
+.skills-section h2 {
+	text-align: center;
+	font-size: 35px;
+}
+
+.skills-section .text {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.skills-section .cells {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 @media (max-width: 850px) {
 	/* section 1 : hero */
 	.hero-section .text h2 {
@@ -148,5 +170,14 @@ nav .right a span {
 
 	nav .right a span {
 		display: none;
+	}
+
+	/* section 1: hero */
+	.hero-section {
+		padding: 0 20px;
+	}
+
+	.hero-section .text h2 {
+		font-size: 30px;
 	}
 }
