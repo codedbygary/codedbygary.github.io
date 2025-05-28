@@ -129,6 +129,38 @@ nav .right a span {
 	flex-wrap: wrap;
 }
 
+.skills-section .cells .cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	width: 200px;
+	padding: 10px 20px;
+	margin: 10px;
+	border: 1.5px solid #d3d3d3;
+	border-radius: 5px;
+	transition: 300ms;
+}
+
+.skills-section .cells .cell:hover {
+	border: 1.5px solid #b6b6b6;
+	cursor: default;
+	box-shadow: 0px 0px 8px #d3d3d3;
+}
+
+.skills-section .cells .cell  img {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+	border-radius: 3px;
+}
+
+.skills-section .cells .cell span {
+	font-size: 18px;
+}
+
+
 @media (max-width: 850px) {
 	/* section 1 : hero */
 	.hero-section .text h2 {
