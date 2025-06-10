@@ -22,6 +22,11 @@ body {
 	margin: 0 auto;
 }
 
+::selection {
+	background-color: rgb(140, 201, 255);
+	color: #042f3a;
+}
+
 a {
 	color: var(--link-color);
 	text-decoration: none;
