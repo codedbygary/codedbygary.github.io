@@ -1,174 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-		<link rel="stylesheet" href="codes/style.css">
-		<link rel="icon" href="images/me-cat.webp">
-	
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	
-		<title>Gary sucks at coding XD</title>
-	</head>
-	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Gary's Portfolio - Web Developer specializing in HTML, CSS, JavaScript, React, and Node.js">
+	<meta name="author" content="Gary">
 
-	<body>
-	<!-- nav bar -->
-	<nav>
+	<!-- Favicon -->
+	<link rel="icon" type="image/webp" href="images/me-cat.webp">
 
-		<div class="left">
-			<a href="#" id="gameLink">Gary Codes</a>
-		</div>
+	<!-- Preload critical resources -->
+	<link rel="preload" href="codes/style.css" as="style">
+	<link rel="preload" href="codes/script.js" as="script">
 
-		<div class="right">
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-				<i class="fa-solid fa-star"></i>
-				<span>Special</span>
-			</a>
-			<a href="https://github.com/codedbygary/codedbygary.github.io" target="_blank">
-				<i class="fa-brands fa-github"></i>
-				<span>Github</span>
-			</a>
-			</a>
-			<a href="https://discord.com/users/1130812500552716358" target="_blank">
-				<i class="fa-brands fa-discord"></i>
-				<span>Discord</span>
-			</a>
-		</div>
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-	</nav>
-			
-		<main>
-			<!-- section 1: hero -->
-			<section class="hero-section">
-				<div class="text">
-					<h2>Hi, I'm Gary 👋</h2>
-					<p>
-						I'm a web developer who occasionally wins battles against bugs 
-						(and sometimes loses to coffee spills ☕). 
-						I build sites, break stuff, fix it again—then break something 
-						else for fun. Welcome to my little corner of the internet.
-					</p>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
 
-					<div class="links">
-						<a href="#skills">
-							<i class="fa-solid fa-code"></i>
+	<!-- Styles -->
+	<link rel="stylesheet" href="codes/style.css">
+
+	<title>Gary Sucks At Coding</title>
+</head>
+
+<body>
+	<!-- Skip to main content for accessibility -->
+	<a href="#main-content" class="skip-link">Skip to main content</a>
+
+	<!-- Header -->
+	<header>
+		<nav class="navbar" role="navigation" aria-label="Main navigation">
+			<div class="nav-container">
+				<div class="nav-brand">
+					<a href="#" id="gameLink" aria-label="Play interactive coding game">
+						<span class="brand-text">Gary Codes</span>
+					</a>
+				</div>
+
+				<div class="nav-menu">
+					<button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+						<i class="fa-solid fa-moon" aria-hidden="true"></i>
+					</button>
+
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"
+						aria-label="Special surprise link">
+						<i class="fa-solid fa-star" aria-hidden="true"></i>
+						<span>Special</span>
+					</a>
+
+					<a href="https://github.com/codedbygary/codedbygary.github.io" target="_blank"
+						rel="noopener noreferrer" aria-label="GitHub profile">
+						<i class="fa-brands fa-github" aria-hidden="true"></i>
+						<span>GitHub</span>
+					</a>
+
+					<a href="https://discord.com/users/1130812500552716358" target="_blank" rel="noopener noreferrer"
+						aria-label="Discord profile">
+						<i class="fa-brands fa-discord" aria-hidden="true"></i>
+						<span>Discord</span>
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Main Content -->
+	<main id="main-content">
+		<!-- Hero Section -->
+		<section class="hero-section" aria-labelledby="hero-title">
+			<div class="hero-container">
+				<div class="hero-content">
+					<header class="hero-header">
+						<h1 id="hero-title" class="hero-title">
+							Hi, I'm Gary
+						</h1>
+					</header>
+
+					<div class="hero-description">
+						<p>
+							I'm a web developer who occasionally wins battles against bugs
+							(and sometimes loses to coffee spills <span role="img" aria-label="coffee">☕</span>).
+							I build sites, break stuff, fix it again—then break something
+							else for fun. Welcome to my little corner of the internet.
+						</p>
+					</div>
+
+					<nav class="hero-navigation" aria-label="Hero navigation">
+						<a href="#skills" class="hero-link scroll-link">
+							<i class="fa-solid fa-code" aria-hidden="true"></i>
 							<span>Skills</span>
 						</a>
 
-						<a href="#testimony">
-							<i class="fa-solid fa-pen"></i>
+						<a href="#testimony" class="hero-link scroll-link">
+							<i class="fa-solid fa-pen" aria-hidden="true"></i>
 							<span>Testimony</span>
 						</a>
-						<a href="#contact">
-							<i class="fa-solid fa-envelope"></i>
-							<span>contact</span>
+
+						<a href="#contact" class="hero-link scroll-link">
+							<i class="fa-solid fa-envelope" aria-hidden="true"></i>
+							<span>Contact</span>
 						</a>
-					</div>
+					</nav>
 				</div>
 
-				<div class="headshot">
-					<img src="images/me-cat.webp" alt="handsome cat">
+				<div class="hero-image">
+					<img src="images/me-cat.webp" alt="Gary's profile picture - a handsome cat" loading="lazy"
+						width="350" height="350">
 				</div>
-			</section>
+			</div>
+		</section>
 
-			<!-- section 2: skills -->
-			<section id="skills" class="skills-section">
-				<h2>Skills</h2>
-				<div class="text">
+		<!-- Skills Section -->
+		<section id="skills" class="skills-section" aria-labelledby="skills-title">
+			<div class="skills-container">
+				<header class="section-header">
+					<h2 id="skills-title" class="section-title">Skills</h2>
+				</header>
+
+				<div class="skills-description">
 					<p>
-						I speak fluent HTML, CSS, and JavaScript (with a strong accent in “still Googling things”). I break stuff until it works. Also, I may or may not have bribed Flexbox to behave with cat memes.
+						I speak fluent HTML, CSS, and JavaScript (with a strong accent in "still Googling things").
+						I break stuff until it works. Also, I may or may not have bribed Flexbox to behave with cat
+						memes.
 					</p>
 				</div>
 
-				<div class="cells">
-					<div class="cell">
-						<img src="images/html-logo.webp" alt="HTML logo">
-						<span>HTML</span>
-					</div>
+				<div class="skills-grid" role="list" aria-label="Technical skills">
+					<article class="skill-card" role="listitem" data-skill="HTML">
+						<img src="images/html-logo.webp" alt="HTML logo" loading="lazy" width="40" height="40">
+						<span class="skill-name">HTML</span>
+					</article>
 
-					<div class="cell">
-						<img src="images/css-logo.webp" alt="CSS logo">
-						<span>CSS</span>
-					</div>
+					<article class="skill-card" role="listitem" data-skill="CSS">
+						<img src="images/css-logo.webp" alt="CSS logo" loading="lazy" width="40" height="40">
+						<span class="skill-name">CSS</span>
+					</article>
 
-					<div class="cell">
-						<img src="images/javascript-logo.webp" alt="JavaScript logo">
-						<span>JavaScript</span>
-					</div>
+					<article class="skill-card" role="listitem" data-skill="JavaScript">
+						<img src="images/javascript-logo.webp" alt="JavaScript logo" loading="lazy" width="40"
+							height="40">
+						<span class="skill-name">JavaScript</span>
+					</article>
 
-					<div class="cell">
-						<img src="images/node-logo.webp" alt="Node logo">
-						<span>Node.js</span>
-					</div>
+					<article class="skill-card" role="listitem" data-skill="Node.js">
+						<img src="images/node-logo.webp" alt="Node.js logo" loading="lazy" width="40" height="40">
+						<span class="skill-name">Node.js</span>
+					</article>
 
-					<div class="cell">
-						<img src="images/react-logo.webp" alt="React logo">
-						<span>React</span>
-					</div>
-																					
+					<article class="skill-card" role="listitem" data-skill="React">
+						<img src="images/react-logo.webp" alt="React logo" loading="lazy" width="40" height="40">
+						<span class="skill-name">React</span>
+					</article>
 				</div>
-			</section>
+			</div>
+		</section>
 
-			<!-- section 3: testimony -->
-			<section id="testimony" class="testimony-section">
-				<h2>Testimony</h2>
+		<!-- Testimony Section -->
+		<section id="testimony" class="testimony-section" aria-labelledby="testimony-title">
+			<div class="testimony-container">
+				<header class="section-header">
+					<h2 id="testimony-title" class="section-title">Testimony</h2>
+				</header>
 
-				<div class="group">
-					<div class="person-details">
-						<img src="images/riiz.webp" alt="Cool dude">
-						<p>Riizaky</p>
-						<p>Gary the cat's cat friend</p>
+				<article class="testimony-card">
+					<div class="testimony-author">
+						<img src="images/riiz.webp" alt="Riizaky - Gary's cat friend" loading="lazy" width="200"
+							height="200">
+						<div class="author-info">
+							<p class="author-name">Riizaky</p>
+							<p class="author-title">Gary the cat's cat friend</p>
+						</div>
 					</div>
 
-					<div class="text">
+					<blockquote class="testimony-quote">
 						<p>
-							“Gary’s code is so clean, even my grandma’s laptop stopped complaining and started singing. If you want your site to run smoother than my morning coffee, Gary’s your guy!”
+							"Gary's code is so clean, even my grandma's laptop stopped complaining and started singing.
+							If you want your site to run smoother than my morning coffee, Gary's your guy!"
 						</p>
+					</blockquote>
+				</article>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="contact-section" aria-labelledby="contact-title">
+			<div class="contact-container">
+				<header class="section-header">
+					<h2 id="contact-title" class="section-title">Contact</h2>
+				</header>
+
+				<div class="contact-content">
+					<div class="contact-info">
+						<h3>Got a question? A crazy idea? Or just wanna say hi?</h3>
+						<p>Shoot me a message! I promise I don't bite — unless you're a bug in the code. <span
+								role="img" aria-label="bug">🐛</span></p>
+						<p>Whether it's about web dev magic, project collabs, or just to share your favorite meme, hit
+							me up!</p>
 					</div>
-				</div>
-			</section>
 
-			<!-- section 4: contact -->
-			<section id="contact" class="contact-section">
-				<h2>Contact</h2><br>
+					<form id="contactForm" class="contact-form" novalidate>
+						<div class="form-group">
+							<label for="name" class="form-label">Name</label>
+							<input type="text" id="name" name="name" placeholder="SpongeBob" required
+								class="form-input">
+							<span class="error-message" id="nameError" aria-live="polite"></span>
+						</div>
 
-				<div class="group">
-					<div class="text">
-						<h3>Got a question? A crazy idea? Or just wanna say hi?</h3><br>
+						<div class="form-group">
+							<label for="email" class="form-label">Email</label>
+							<input type="email" id="email" name="email" placeholder="spongebob@gmail.com" required
+								class="form-input">
+							<span class="error-message" id="emailError" aria-live="polite"></span>
+						</div>
 
-						<p>Shoot me a message! I promise I don’t bite — unless you’re a bug in the code. 🐛</p>
-							
-						<p>Whether it’s about web dev magic, project collabs, or just to share your favorite meme, hit me up!</p>
+						<div class="form-group">
+							<label for="message" class="form-label">Message</label>
+							<textarea id="message" name="message" placeholder="i like sponge bob." required
+								class="form-textarea" rows="10"></textarea>
+							<span class="error-message" id="messageError" aria-live="polite"></span>
+						</div>
 
-					</div>
-
-					<form>
-						<label for="name">Name</label>
-						<input type="text" id="name" placeholder="SpongeBob">
-
-						<label for="email">Email</label>
-						<input type="email" id="email" placeholder="spongebob@gmail.com">
-						
-						<label for="message">Message</label>
-						<textarea id="message" cols="30" rows="10" placeholder="i like sponge bob."></textarea>
-						
-
-						<button type="submit">Send Message</button>
+						<button type="submit" id="submitBtn" class="submit-btn">
+							<span class="btn-text">Send Message</span>
+							<span class="btn-loading">
+								<i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+								Sending...
+							</span>
+						</button>
 					</form>
 				</div>
-			</section>
+			</div>
+		</section>
+	</main>
 
-		</main>
+	<!-- Game Modal -->
+	<dialog id="gameModal" class="modal" aria-labelledby="game-title">
+		<div class="modal-content">
+			<header class="modal-header">
+				<h3 id="game-title">🎮 Gary's Coding Challenge</h3>
+				<button class="close-btn" id="closeGame" aria-label="Close game modal">&times;</button>
+			</header>
 
-		<script src="codes/script.js"></script>
-	</body>
+			<div class="modal-body">
+				<div id="gameIntro">
+					<p>Think you can debug faster than Gary? Let's test your skills!</p>
+					<div class="game-options">
+						<button class="game-btn" data-difficulty="easy">Easy Mode</button>
+						<button class="game-btn" data-difficulty="medium">Medium Mode</button>
+						<button class="game-btn" data-difficulty="hard">Hard Mode</button>
+					</div>
+				</div>
+
+				<div id="gameArea" style="display: none;">
+					<div class="game-info">
+						<span id="timer">Time: 0s</span>
+						<span id="score">Score: 0</span>
+					</div>
+					<div id="codeBlock" class="code-block"></div>
+					<div class="game-controls">
+						<button id="submitAnswer" class="game-btn">Submit Answer</button>
+						<button id="newGame" class="game-btn secondary">New Game</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</dialog>
+
+	<!-- Scripts -->
+	<script src="codes/script.js"></script>
+</body>
+
 </html>
