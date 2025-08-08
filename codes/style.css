@@ -283,6 +283,7 @@ a:hover {
 	flex: 1;
 }
 
+/* Fix for h1 element warning */
 .hero-title {
 	font-size: var(--font-size-6xl);
 	font-weight: 800;
@@ -292,6 +293,12 @@ a:hover {
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	line-height: 1.1;
+	margin-top: 0;
+	/* Explicitly set margin-top */
+	margin-left: 0;
+	/* Explicitly set margin-left */
+	margin-right: 0;
+	/* Explicitly set margin-right */
 }
 
 .hero-description p {
