@@ -342,6 +342,8 @@ a:hover {
 
 .hero-image img {
 	width: 350px;
+	height: 350px;
+	object-fit: cover;
 	border-radius: var(--radius-2xl);
 	box-shadow: var(--shadow-xl);
 	transition: transform var(--transition-normal);
@@ -950,6 +952,8 @@ a:hover {
 
 	.hero-image img {
 		width: 280px;
+		height: 280px;
+		object-fit: cover;
 	}
 
 	.testimony-card {
@@ -1055,6 +1059,8 @@ a:hover {
 
 	.hero-image img {
 		width: 250px;
+		height: 250px;
+		object-fit: cover;
 	}
 
 	.skill-card {
